@@ -1,0 +1,7 @@
+<h1><%= @student[:name] %></h1>
+<p><%= @student[:description] %></p>
+<p><%= @student[:city] %></p>
+<p><%= image_tag(@student[:picture_url]) %></p>
+
+
+<%= link_to "Back", show_all_path %>
